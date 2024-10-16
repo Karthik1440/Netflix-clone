@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    padding: 0;
+    color: aliceblue;
+}
+.row-post {
+    display: flex;
+    margin: 30px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+.row-post::-webkit-scrollbar{
+    display: none;
+}
+.poster {
+    width:280px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 20px;
+}
+h1{
+    padding-left: 30px;
+}
+.smallposter{
+    width:200px;
+    height: 150px;
+    padding: 20px;
+}
